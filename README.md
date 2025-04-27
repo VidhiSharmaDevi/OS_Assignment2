@@ -52,5 +52,6 @@ If the system is not safe:
 "System is not in a safe state"
 ## Compilation and execution
 gcc main.c -o banker
+
 ./banker
 
