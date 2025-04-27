@@ -44,13 +44,13 @@ Where:
 4. Repeat until all processes are finished or no safe process is found
 Key functions used:
 bool isSafe(int available[], int max[][3], int allocation[][3], int n, int m)
-##Example of safe sequence output
+## Example of safe sequence output
 If the system is safe, the output will look like:
 "System is in safe state"
 "Safe sequence is: P1 P3 P4 P0 P2"
 If the system is not safe:
 "System is not in a safe state"
-##Compilation and execution
+## Compilation and execution
 gcc main.c -o banker
 ./banker
 
