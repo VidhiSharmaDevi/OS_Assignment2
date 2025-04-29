@@ -23,6 +23,7 @@ Where:
 ## Setting up input file
 - Available resources: 3 3 2
 - Allocation matrix:
+
 0 1 0
   
 2 0 0
@@ -33,6 +34,7 @@ Where:
 
 0 0 2
 - Max matrix:
+
 7 5 3
   
 3 2 2
@@ -42,6 +44,7 @@ Where:
 2 2 2
 
 4 3 3
+
 ## Implementing the Banker's Algorithm
 1. Calculate the Need matrix
 2. Find a process whose need can be satisfied with available resources
